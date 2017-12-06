@@ -1,0 +1,10 @@
+### Xcode  ###
+*.xcworkspace
+*.xcuserdatad
+
+### OSX ###
+*.DS_Store
+
+### Dependency Managers ###
+/Carthage
+/Pods
