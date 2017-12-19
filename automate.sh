@@ -9,3 +9,6 @@ ln -s $(pwd)/xcode/code-snippets ~/Library/Developer/Xcode/UserData/CodeSnippets
 # git
 ln -s $(pwd)/gitignore_global ~/.gitignore_global
 ln -s $(pwd)/gitconfig ~/.gitconfig
+
+# fish
+ln -s $(pwd)/config/fish ~/.config/fish

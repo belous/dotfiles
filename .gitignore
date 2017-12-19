@@ -28,3 +28,6 @@ Temporary Items
 
 # Local changed should not override general config
 gitconfig
+
+# fish
+fishd.*
