@@ -2,5 +2,7 @@
 set fish_greeting ""
 
 # go paths
-set -x GOROOT /usr/local/opt/go/libexec
-set -x GOPATH $HOME/code/go
+set -gx GOROOT /usr/local/opt/go/libexec
+set -gx GOPATH $HOME/.go
+set -gx PATH $PATH $GOROOT/bin
+set -gx PATH $PATH $GOPATH/bin
