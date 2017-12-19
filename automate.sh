@@ -12,3 +12,7 @@ ln -s $(pwd)/gitconfig ~/.gitconfig
 
 # fish
 ln -s $(pwd)/config/fish ~/.config/fish
+
+# go
+# re-export env paths?
+# mkdir -p $GOPATH $GOPATH/src $GOPATH/pkg $GOPATH/bin
