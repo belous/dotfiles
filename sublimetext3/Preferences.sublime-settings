@@ -1,0 +1,56 @@
+{
+	"auto_complete": false,
+	"auto_complete_commit_on_tab": false,
+	"bold_folder_labels": false,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"create_window_at_startup": false,
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
+	"fold_buttons": false,
+	"font_options":
+	[
+		"no_bold",
+		"no_italic"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Material Theme - Appbar",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"material_theme_accent_cyan": true,
+	"material_theme_compact_panel": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_disable_folder_animation": true,
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		79,
+		119
+	],
+	"scroll_past_end": false,
+	"show_full_path": true,
+	"show_minimap": false,
+	"spell_check": false,
+	"tab_size": 4,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

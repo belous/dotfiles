@@ -14,5 +14,6 @@ ln -s $(pwd)/gitconfig ~/.gitconfig
 ln -s $(pwd)/config/fish ~/.config/fish
 
 # go
+# install go: `brew install go`
 # re-export env paths?
 # mkdir -p $GOPATH $GOPATH/src $GOPATH/pkg $GOPATH/bin
