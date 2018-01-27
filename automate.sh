@@ -13,6 +13,10 @@ ln -s $(pwd)/gitconfig ~/.gitconfig
 # fish
 ln -s $(pwd)/config/fish ~/.config/fish
 
+# multi language spelling check
+# https://geektimes.ru/post/80123/
+ln -s $(pwd)/ru ~/Library/Spelling/ru
+
 # go
 # install go: `brew install go`
 # re-export env paths?
