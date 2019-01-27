@@ -12,3 +12,5 @@ set -gx PATH $PATH $GOPATH/bin
 
 # other paths
 # set -g fish_user_paths "/usr/local/opt/openssl/bin" $fish_user_paths
+
+set -x PATH $HOME/.fastlane/bin $PATH
