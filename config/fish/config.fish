@@ -6,9 +6,13 @@ set fish_greeting ""
 
 # go paths
 set -gx GOROOT /usr/local/opt/go/libexec
-set -gx GOPATH $HOME/.go
+set -gx GOPATH1 $HOME/.go
+set -gx GOPATH2 $HOME/Projects/go
+set -gx GOPATH $GOPATH1:$GOPATH2
+
 set -gx PATH $PATH $GOROOT/bin
-set -gx PATH $PATH $GOPATH/bin
+set -gx PATH $PATH $GOPATH1/bin
+set -gx PATH $PATH $GOPATH2/bin
 
 # other paths
 # set -g fish_user_paths "/usr/local/opt/openssl/bin" $fish_user_paths
