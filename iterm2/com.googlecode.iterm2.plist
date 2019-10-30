@@ -38466,11 +38466,11 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>330 301 620 392 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>844 354 770 429 0 0 1920 1057 </string>
+	<string>843 536 770 429 0 0 1920 1057 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>388 100 592 584 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>104 51 1060 726 0 0 1280 777 </string>
+	<string>428 153 1060 800 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>402 194 1060 794 0 0 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_21B51269-9C04-47FA-B6FD-4AA0CF399D9E</key>
@@ -39794,7 +39794,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-04-02T07:36:33Z</date>
+	<date>2019-06-20T08:53:17Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUSkippedVersion</key>
