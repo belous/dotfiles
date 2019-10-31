@@ -11,11 +11,15 @@ ln -s $(pwd)/gitignore_global ~/.gitignore_global
 ln -s $(pwd)/gitconfig ~/.gitconfig
 
 # fish
+mkdir -p ~/.config/
 ln -s $(pwd)/config/fish ~/.config/fish
 
 # multi language spelling check
 # https://geektimes.ru/post/80123/
 ln -s $(pwd)/ru ~/Library/Spelling/ru
+
+# create folder for custom themes for Xcode
+mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/`
 
 # go
 # install go: `brew install go`

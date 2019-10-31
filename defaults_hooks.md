@@ -13,6 +13,11 @@ Allow iOS Simulator Fullscreen Mode:
 defaults write com.apple.iphonesimulator AllowFullscreenMode -bool YES
 ```
 
+Disable ability to change size of the Dock
+```
+defaults write com.apple.dock size-immutable -bool YES; killall Dock
+```
+
 
 Enable Playing a Power Chime Sound Effect
 ```
