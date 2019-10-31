@@ -19,7 +19,7 @@ ln -s $(pwd)/config/fish ~/.config/fish
 ln -s $(pwd)/ru ~/Library/Spelling/ru
 
 # create folder for custom themes for Xcode
-mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/`
+mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
 
 # go
 # install go: `brew install go`
