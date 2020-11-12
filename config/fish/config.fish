@@ -13,6 +13,7 @@ set -gx GOPATH $GOPATH1:$GOPATH2
 set -gx PATH $PATH $GOROOT/bin
 set -gx PATH $PATH $GOPATH1/bin
 set -gx PATH $PATH $GOPATH2/bin
+set -gx PATH $PATH /usr/local/bin
 
 # other paths
 # set -g fish_user_paths "/usr/local/opt/openssl/bin" $fish_user_paths
@@ -30,3 +31,5 @@ set -x PATH $HOME/.fastlane/bin $PATH
 #   set -gx LDFLAGS "-L/usr/local/opt/node@8/lib"
 #   set -gx CPPFLAGS "-I/usr/local/opt/node@8/include"
 set -g fish_user_paths "/usr/local/opt/node@8/bin" $fish_user_paths
+set -g fish_user_paths "/usr/local/bin" $fish_user_paths
+set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
