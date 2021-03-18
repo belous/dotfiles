@@ -28,3 +28,9 @@ Disable:
 ```
 defaults write com.apple.PowerChime ChimeOnAllHardware -bool false;killall PowerChime
 ```
+
+
+Reset Launchpad:
+```
+defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
+```
