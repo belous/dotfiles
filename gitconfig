@@ -1,5 +1,5 @@
 [core]
-    excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [user]
 	email = belous.ios@gmail.com
-	name = Sergey Belous
+	name = Sergei Belous
