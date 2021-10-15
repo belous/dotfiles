@@ -3,3 +3,5 @@
 [user]
 	email = belous.ios@gmail.com
 	name = Sergei Belous
+[init]
+	defaultBranch = master

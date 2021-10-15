@@ -34,3 +34,22 @@ Reset Launchpad:
 ```
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
 ```
+
+Other (???):
+```
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder
+defaults write com.apple.Dock size-immutable -bool true; killall Dock
+defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
+xcode:
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
+defaults write com.apple.dt.Xcode IDEIndexerActivityShowNumericProgress -bool YES
+try:
+defaults read com.apple.dt.Xcode BuildSystemScheduleInherentlyParallelCommandsExclusively
+defaults write com.apple.dt.Xcode BuildSystemScheduleInherentlyParallelCommandsExclusively -bool YES
+defaults write com.apple.dt.Xcode BuildSystemScheduleInherentlyParallelCommandsSerially -bool YES
+defaults read com.apple.dt.Xcode ShowBuildOperationDuration
+sysctl -n hw.ncpu
+defaults read com.apple.dt.Xcode IDEBuildOperationMaxNumberOfConcurrentCompileTasks
+defaults write com.apple.dt.Xcode IDEBuildOperationMaxNumberOfConcurrentCompileTasks 4
+defaults write com.apple.dt.Xcode IDEIndexerActivityShowNumericProgress -bool YES
+```
