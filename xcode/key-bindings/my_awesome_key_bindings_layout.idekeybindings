@@ -8,6 +8,68 @@
 		<array>
 			<dict>
 				<key>Action</key>
+				<string>performAlertEvent:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>A6981121-B886-4025-B153-5F0F667F668C-1353-00000004A82984AD</string>
+				<key>Group</key>
+				<string>Xcode Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Xcode</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>@t</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Behaviors</string>
+				<key>Title</key>
+				<string>Open iTerm2</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>analyzeActiveRunContext:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.Analyze</string>
+				<key>Group</key>
+				<string>Product Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^$@B</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Analyze</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>analyzeFile:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.AnalyzeFile</string>
+				<key>Group</key>
+				<string>Product Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Perform Action</string>
+				<key>Title</key>
+				<string>Analyze File</string>
+			</dict>
+			<dict>
+				<key>Action</key>
 				<string>buildActiveRunContext:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -20,7 +82,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^@b</string>
+				<string>$@B</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
@@ -45,6 +107,26 @@
 				<string>Perform Action</string>
 				<key>Title</key>
 				<string>Compile File</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>editAndAnalyzeActiveRunContext:</string>
+				<key>Alternate</key>
+				<string>YES</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.EditAndAnalyze</string>
+				<key>Group</key>
+				<string>Product Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~$@B</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Analyze…</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -108,26 +190,6 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>newTab:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.NewTab</string>
-				<key>Group</key>
-				<string>File Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>New</string>
-				<key>Title</key>
-				<string>Tab</string>
-			</dict>
-			<dict>
-				<key>Action</key>
 				<string>newWindow:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -145,6 +207,26 @@
 				<string>New</string>
 				<key>Title</key>
 				<string>Window</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>newTab:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.NewWindowTab</string>
+				<key>Group</key>
+				<string>File Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>New</string>
+				<key>Title</key>
+				<string>Window Tab</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -242,7 +324,7 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Standard Editor</string>
+				<string>Editor</string>
 				<key>Title</key>
 				<string>Show Document Items</string>
 			</dict>
@@ -310,43 +392,71 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>continueREPL:</string>
+				<string>toggleTabOverview:</string>
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEPlaygroundEditor.CmdDefinition.Continue</string>
+				<string>Xcode.IDEKit.CmdDefinition.ToggleWindowTabOverview</string>
 				<key>Group</key>
-				<string>Editor Menu for Playground</string>
+				<string>View Menu</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEPegasusPlaygroundEditor.MenuDefinition.Editor</string>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^</string>
+				<string>^@|</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Continue Playground</string>
+				<string>Show All Window Tabs</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>execute:</string>
+				<string>addVerticalGuide:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.InterfaceBuilderKit.CmdDefinition.AddVerticalGuide</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEPlaygroundEditor.CmdDefinition.Execute</string>
+				<string>Xcode.InterfaceBuilderKit.CmdDefinition.AddVerticalGuide</string>
 				<key>Group</key>
-				<string>Editor Menu for Playground</string>
+				<string>Editor Menu for Interface Builder - Storyboard</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEPegasusPlaygroundEditor.MenuDefinition.Editor</string>
+				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string></string>
+				<string>@|</string>
 				<key>Navigation</key>
 				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Guides</string>
 				<key>Title</key>
-				<string>Execute Playground</string>
+				<string>Add Vertical Guide</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>addVerticalGuide:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.InterfaceBuilderKit.CmdDefinition.AddVerticalGuide</string>
+				<key>CommandID</key>
+				<string>Xcode.InterfaceBuilderKit.CmdDefinition.AddVerticalGuide</string>
+				<key>Group</key>
+				<string>Editor Menu for Interface Builder Cocoa Preview</string>
+				<key>GroupID</key>
+				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>@|</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Guides</string>
+				<key>Title</key>
+				<string>Add Vertical Guide</string>
 			</dict>
 		</array>
 		<key>Version</key>

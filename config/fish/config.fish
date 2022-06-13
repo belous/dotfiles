@@ -14,6 +14,8 @@ set -gx PATH $PATH $GOROOT/bin
 set -gx PATH $PATH $GOPATH1/bin
 set -gx PATH $PATH $GOPATH2/bin
 set -gx PATH $PATH /usr/local/bin
+set -gx PATH $PATH /opt/homebrew/bin
+set -gx PATH $PATH $HOME/.gem/ruby/2.6.0/bin
 
 # other paths
 # set -g fish_user_paths "/usr/local/opt/openssl/bin" $fish_user_paths

@@ -1,7 +1,10 @@
 [core]
 	excludesfile = ~/.gitignore_global
 [user]
-	email = belous.ios@gmail.com
+	email = sergei.belous@tink.com
 	name = Sergei Belous
 [init]
 	defaultBranch = master
+[diff "localizablestrings"]
+	textconv = "iconv -f utf-16 -t utf-8"
+	binary = false
