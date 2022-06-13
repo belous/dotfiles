@@ -1,7 +1,7 @@
 [core]
 	excludesfile = ~/.gitignore_global
 [user]
-	email = belous.ios@gmail.com
+	email = sergei.belous@tink.com
 	name = Sergei Belous
 [init]
 	defaultBranch = master
